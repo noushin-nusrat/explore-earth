@@ -69,27 +69,37 @@ nav li a {
     width: 1200px;
     height: 500px;
     margin: 0 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
     background: linear-gradient(to bottom, #00000025, #0808081d), url(../Images/Group\ 13\ \(1\)\ \(1\).png) no-repeat;
+    background-size: cover;
 }
 
-/* .banner-description {
+.banner-description {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    /* align-items: center;} */
+    align-items: center;
+}
 
 
 .banner-description h1 {
     color: #FFF;
     text-align: center;
-    font-size: 4rem;
+    font-size: 50px;
     font-weight: 800;
+    border: 2px solid yellow;
 }
 
 .banner-description p {
     color: #FFF;
     text-align: center;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
+    border: 2px solid yellow;
 }
 
 /* popular tour style */
@@ -201,9 +211,17 @@ nav li a {
     width: 64px;
     height: 64px;
 }
+.guarantee-section-container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
 .guarantee-section {
     width: 50%;
+    padding: 2rem;
     border-radius: 1rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -211,21 +229,62 @@ nav li a {
 
 .guarantee-section h3 {
     color: #131318;
-    font-size: 1,5rem;
+    font-size:  1.5rem;
     font-weight: 800;
 }
-.guarantee-section p{
+
+.guarantee-section p {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
 }
-.guarantee-section img{
+
+.guarantee-section img {
     width: 64px;
     height: 64px;
 }
 
+/* newsletter section style*/
+.newsletter-section {
+    width: 1200px;
+    margin: 130px 135px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.news-trip-section {
+    width: 40%;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-section h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-section p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+}
+
+.text-section, .email-section {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
 
 /* responsive for mobile */
 @media screen and (max-width: 600px) {}
