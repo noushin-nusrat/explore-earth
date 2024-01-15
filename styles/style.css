@@ -1,0 +1,54 @@
+/* mulish font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+/* shared style */
+* {
+    font-family: 'Mulish', sans-serif;
+    background-color: #fff;
+}
+
+.common-color {
+    color: #FF5400;
+}
+
+/* navbar style */
+header h1 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 135px;
+}
+
+nav>ul {
+    display: flex;
+    color: #424247;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+nav li {
+    list-style: none;
+    margin: 35px;
+    font-weight: 600;
+    font-style: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* banner section style*/
+.banner-section {
+    width: 1200px;
+    height: 500px;
+    margin: 0 135px;
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png) no-repeat;
+}
