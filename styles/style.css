@@ -4,12 +4,24 @@
 /* shared style */
 * {
     font-family: 'Mulish', sans-serif;
-    background-color: #fff;
 }
 
 .common-color {
     color: #FF5400;
 }
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 10.3rem;
+    height: 3.25rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
 
 /* navbar style */
 header h1 {
@@ -26,9 +38,15 @@ nav {
     margin: 0 135px;
 }
 
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 nav>ul {
     display: flex;
-    color: #424247;
     text-align: center;
     font-size: 1.125rem;
     font-weight: 400;
@@ -42,6 +60,7 @@ nav li {
 }
 
 nav li a {
+    color: #424247;
     text-decoration: none;
 }
 
@@ -50,5 +69,163 @@ nav li a {
     width: 1200px;
     height: 500px;
     margin: 0 135px;
-    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png) no-repeat;
+    background: linear-gradient(to bottom, #00000025, #0808081d), url(../Images/Group\ 13\ \(1\)\ \(1\).png) no-repeat;
 }
+
+/* .banner-description {
+    justify-content: center;
+    text-align: center;
+    /* align-items: center;} */
+
+
+.banner-description h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* popular tour style */
+
+.hero-section {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 95px 135px;
+    gap: 75px;
+}
+
+.hero-section-left {
+    width: 50%;
+}
+
+.hero-section-left h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hero-section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero-section-right {
+    width: 50%;
+}
+
+
+/* why choose us section style */
+.about-us {
+    width: 1200px;
+    margin: 0 135px;
+}
+
+.about-section h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-section p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 50px;
+}
+
+.about-section-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hotel-section {
+    width: 50%;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.hotel-section h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.hotel-section p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hotel-section img {
+    width: 64px;
+    height: 64px;
+}
+
+.map-section {
+    width: 50%;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.map-section h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.map-section p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.map-section img {
+    width: 64px;
+    height: 64px;
+}
+
+.guarantee-section {
+    width: 50%;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.guarantee-section h3 {
+    color: #131318;
+    font-size: 1,5rem;
+    font-weight: 800;
+}
+.guarantee-section p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.guarantee-section img{
+    width: 64px;
+    height: 64px;
+}
+
+
+
+
+/* responsive for mobile */
+@media screen and (max-width: 600px) {}
