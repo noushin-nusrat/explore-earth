@@ -10,12 +10,20 @@
     color: #FF5400;
 }
 
+/* .select-box {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+} */
+
 .btn-primary {
     border-radius: 8px;
     background: #FF5400;
     border: none;
-    width: 10.3rem;
-    height: 3.25rem;
+    height: 40px;
+    width: 130px;
     color: #FFF;
     text-align: center;
     font-size: 1rem;
@@ -91,7 +99,6 @@ nav li a {
     text-align: center;
     font-size: 50px;
     font-weight: 800;
-    border: 2px solid yellow;
 }
 
 .banner-description p {
@@ -99,7 +106,20 @@ nav li a {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    border: 2px solid yellow;
+}
+.option-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-2 {
+    height: 40px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
 }
 
 /* popular tour style */
@@ -129,9 +149,56 @@ nav li a {
     font-weight: 400;
 }
 
+.hero-section-description li {
+    margin-top: 10px;
+}
+
 .hero-section-right {
     width: 50%;
 }
+
+/* Choose Your Destination section style */
+.world-tour {
+    width: 1200px;
+    margin: 0 135px;
+}
+#card-1{
+    background-image: url(../Images/Rectangle\ 5.png);
+  grid-area: c1;
+}
+#card-2{
+    background-image: url(../Images/Rectangle\ 8.png);
+  grid-area: c2;
+}
+#card-3{
+    background-image: url(../Images/Rectangle\ 6.png);
+  grid-area: c3;
+}
+#card-4{
+    background-image: url(../Images/Rectangle\ 7.png);
+  grid-area: c4;
+}
+#card-5{
+    background-image: url(../Images/Rectangle\ 9.png);
+  grid-area: c5;
+}
+#card-6{
+    background-image: url(../Images/Rectangle\ 11.png);
+  grid-area: c6;
+}
+#card-7{
+    background-image: url(../Images/Rectangle\ 10.png);
+  grid-area: c7;
+}
+.img-container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+        "c1 c1 c1 c1 c1 c1 c2 c2 c2 c2 c2 c2"
+        "c3 c3 c3 c3 c4 c4 c4 c4 c4 c5 c5 c5 "
+        "c6 c6 c6 c6 c6 c7 c7 c7 c7 c7 c7 c7";
+}
+
 
 
 /* why choose us section style */
@@ -211,7 +278,8 @@ nav li a {
     width: 64px;
     height: 64px;
 }
-.guarantee-section-container{
+
+.guarantee-section-container {
     width: 1200px;
     display: flex;
     justify-content: center;
@@ -229,7 +297,7 @@ nav li a {
 
 .guarantee-section h3 {
     color: #131318;
-    font-size:  1.5rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
@@ -243,6 +311,18 @@ nav li a {
     width: 64px;
     height: 64px;
 }
+/* mountain in bd style section */
+.bd-hill-section{
+    width: 1200px;
+    margin: 120px 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/* .hill-section-description li{
+    gap: 20px;
+} */
 
 /* newsletter section style*/
 .newsletter-section {
@@ -278,13 +358,66 @@ nav li a {
     border-bottom: 2px solid rgba(19, 19, 24, 0.10);
 }
 
-.text-section, .email-section {
+.text-section,
+.email-section {
     width: 393px;
     height: 52px;
+    padding: 10px;
     border-radius: 8px;
     border: none;
     background: rgba(19, 19, 24, 0.05);
 }
+
+.newsletter-img-section {
+    width: 60%;
+
+}
+
+.small-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.offer-section {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 320px;
+    height: 120px;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    transform: rotate(-21deg);
+}
+
+/* footer section style */
+.footer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+
+}
+
+
+
+
+
+
+
+
 
 /* responsive for mobile */
 @media screen and (max-width: 600px) {}
