@@ -107,11 +107,17 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
 }
-.option-section{
+
+.option-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
 }
+
 .input-2 {
     height: 40px;
     width: 130px;
@@ -157,40 +163,112 @@ nav li a {
     width: 50%;
 }
 
+/* extra-section */
+.extra-services {
+    width: 1200px;
+    margin: 0 135px;
+}
+
+.extra-services h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.extra-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.services-section {
+    box-shadow: rgba(35, 39, 49, 0.301) 0px 5px 15px;
+    border-radius: 15%;
+    padding: 15px;
+}
+
+.extra-img {
+    width: 50px;
+}
+
+.services-section:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(122, 157, 244, 0.301) 0px 5px 15px;
+}
+
 /* Choose Your Destination section style */
 .world-tour {
     width: 1200px;
     margin: 0 135px;
 }
-#card-1{
+
+#card-1 {
     background-image: url(../Images/Rectangle\ 5.png);
-  grid-area: c1;
+    grid-area: c1;
+    height: 300px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#card-2{
+
+#card-2 {
     background-image: url(../Images/Rectangle\ 8.png);
-  grid-area: c2;
+    grid-area: c2;
+    height: 300px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#card-3{
+
+#card-3 {
     background-image: url(../Images/Rectangle\ 6.png);
-  grid-area: c3;
+    grid-area: c3;
+    height: 300px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#card-4{
+
+#card-4 {
     background-image: url(../Images/Rectangle\ 7.png);
-  grid-area: c4;
+    grid-area: c4;
+    height: 300px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#card-5{
+
+#card-5 {
     background-image: url(../Images/Rectangle\ 9.png);
-  grid-area: c5;
+    grid-area: c5;
+    height: 300px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#card-6{
+
+#card-6 {
     background-image: url(../Images/Rectangle\ 11.png);
-  grid-area: c6;
+    grid-area: c6;
+    height: 300px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#card-7{
+
+#card-7 {
     background-image: url(../Images/Rectangle\ 10.png);
-  grid-area: c7;
+    grid-area: c7;
+    height: 300px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.img-container{
+
+.img-container {
     display: grid;
     gap: 1.5rem;
     grid-template-areas:
@@ -311,18 +389,48 @@ nav li a {
     width: 64px;
     height: 64px;
 }
+
 /* mountain in bd style section */
-.bd-hill-section{
+.bd-hill-section {
     width: 1200px;
     margin: 120px 135px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
-/* .hill-section-description li{
-    gap: 20px;
-} */
+
+.hill-section-description h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hill-section-description p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hill-section-description {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hill-section-description li {
+    margin-top: 15px;
+}
+
+.mountain-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 /* newsletter section style*/
 .newsletter-section {
@@ -368,10 +476,6 @@ nav li a {
     background: rgba(19, 19, 24, 0.05);
 }
 
-.newsletter-img-section {
-    width: 60%;
-
-}
 
 .small-heading {
     color: #FFF;
@@ -386,29 +490,53 @@ nav li a {
     font-weight: 800;
 }
 
-.btn-secondary {
-    border-radius: 8px;
+.newsletter-img-section {
+    position: relative;
+}
+.travel-info{
+    width: 60%;
+}
+
+
+.newsletter-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
     background: #FF5400;
-    border: none;
-    width: 320px;
-    height: 120px;
-    color: #FFF;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 800;
-    transform: rotate(-21deg);
+    /* margin: 0 auto; */
+    /* width: 300px;
+    height: 100px; */
+    padding: 10px 80px;
+    position: absolute;
+    transform: rotate(-25.628deg);
+    right: 0;
+    /* left: 0; */
+    bottom: 60px;
 }
 
 /* footer section style */
+.main-footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px;
+}
+
 .footer-section {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(19, 19, 24, 0.05);
-    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+}
+.footer-icon{
+    margin-left: 40%;
+    margin-right: 40%;
+}
 
+.copyright-text {
+    width: 100%;
 }
 
 
