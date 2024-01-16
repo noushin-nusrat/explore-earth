@@ -501,20 +501,24 @@ nav li a {
 .newsletter-info {
     display: flex;
     flex-direction: column;
-    color: white;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
     background: #FF5400;
-    /* margin: 0 auto; */
-    /* width: 300px;
-    height: 100px; */
     padding: 10px 80px;
     position: absolute;
     transform: rotate(-25.628deg);
     right: 0;
-    /* left: 0; */
     bottom: 60px;
+}
+.newsletter-info-small{
+    color: white;
+    
+}
+.newsletter-info-big{
+      color: rgb(54, 25, 221);
+      font-size: 20px;
+      
 }
 
 /* footer section style */
