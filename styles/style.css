@@ -464,7 +464,7 @@ nav li a {
     font-weight: 800;
 }
 
-.newsletter-section p {
+.newsletter-para {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
@@ -514,27 +514,33 @@ nav li a {
     padding: 10px 80px;
     position: absolute;
     transform: rotate(-25.628deg);
-    right: 0;
-    bottom: 60px;
+    right: -255px;
+    bottom: 75px;
 }
 .newsletter-info-small{
     color: white;
+    font-size: 18px;
     
 }
 .newsletter-info-big{
-      color: rgb(54, 25, 221);
-      font-size: 20px;
+      color: white;
+      font-size: 30px;
+      font-weight: 800;
       
 }
 
 /* footer section style */
 .main-footer {
     background: rgba(19, 19, 24, 0.05);
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .footer-section {
-    width: 100%;
+    width: 1200px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
