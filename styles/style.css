@@ -138,8 +138,8 @@ nav li a {
     margin-right: 5px;
 }
 
-/* popular tour style */
 
+/* popular tour style */
 .hero-section {
     width: 1200px;
     display: flex;
@@ -148,6 +148,7 @@ nav li a {
     margin: 95px 135px;
     gap: 75px;
 }
+
 
 .hero-section-left {
     width: 50%;
@@ -191,7 +192,6 @@ nav li a {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-
 }
 
 .services-section {
@@ -318,6 +318,8 @@ nav li a {
         "c3 c3 c3 c3 c4 c4 c4 c4 c4 c5 c5 c5 "
         "c6 c6 c6 c6 c6 c7 c7 c7 c7 c7 c7 c7";
 }
+
+
 /* Deal & discount section style */
 .deals-discount{
     width: 1200px;
@@ -661,7 +663,7 @@ nav li a {
     width: 40%;
     border-radius: 1rem;
     border: 1px solid #FF5400;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -682,9 +684,7 @@ nav li a {
 
 .text-section,
 .email-section {
-    width: 393px;
-    height: 52px;
-    padding: 10px;
+    padding: 20px 30px;
     border-radius: 8px;
     border: none;
     background: rgba(19, 19, 24, 0.05);
@@ -694,8 +694,8 @@ nav li a {
     border-radius: 8px;
     background: #FF5400;
     border: none;
-    height: 50px;
-    width: 413px;
+    width: 100%;
+    padding: 15px 0;
     color: #FFF;
     text-align: center;
     font-size: 1rem;
@@ -716,14 +716,10 @@ nav li a {
     font-weight: 800;
 }
 
-.newsletter-img-section {
-    position: relative;
-}
-
 .travel-info {
     width: 60%;
+    position: relative;
 }
-
 
 .newsletter-info {
     display: flex;
@@ -735,7 +731,7 @@ nav li a {
     padding: 10px 80px;
     position: absolute;
     transform: rotate(-25.628deg);
-    right: -255px;
+    right: 0;
     bottom: 75px;
 }
 
@@ -749,7 +745,7 @@ nav li a {
     color: white;
     font-size: 30px;
     font-weight: 800;
-
+    margin-top: -15px;
 }
 
 /* footer section style */
@@ -782,191 +778,3 @@ nav li a {
 .hide{
     display: none;
 }
-
- /* responsive for mobile */
- @media screen and (max-width: 600px) {
-
-    body {
-        width: 100vw;
-    }
-
-    nav {
-        display: none;
-    }
-
-    /* Banner section style*/
-    .banner-section {
-        width: 100vw;
-        height: 100vh;
-    }
-    .banner-description{
-        width: 100%;
-    }
-
-    .banner-description h1 {
-        font-size: 25px;
-        padding-top: 20px;
-    }
-
-    .option-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.30);
-        padding: 5px;
-    }
-
-    .hero-section {
-        /* width: 100vw; */
-        display: flex;
-        flex-direction: column;
-        margin: 25px 0px;
-        gap: 75px;
-    }
-
-    .hero-section-left {
-        width: 100%;
-    }
-
-    /* Destination section */
-    .world-tour {
-        width: 100vmin;
-    }
-
-    .img-container {
-        display: grid;
-        gap: 1.5rem;
-        grid-template-areas:
-            "c1"
-            "c2"
-            "c3"
-            "c4"
-            "c5"
-            "c6"
-            "c";
-    }
-
-    .nav-logo {
-        gap: 10px;
-    }
-
-    nav>ul {
-        font-size: 1rem; 
-    }
-
-    nav li {
-        margin: 15px; 
-    }
-
-    .banner-section {
-        /* width: 100vw;
-        height: 300px;  */
-        margin: 0 30px; 
-    }
-
-    .banner-description h1 {
-        font-size: 30px; 
-    }
-
-    .banner-description p {
-        font-size: 14px; 
-    }
-
-    .option-section {
-        padding: 5px; 
-    }
-
-    .input-2,
-    .btn-primary {
-        width: 100%; 
-    }
-
-    .extra-img-container {
-        flex-direction: column; 
-    }
-
-    .services-section {
-        width: 100%; 
-    }
-
-    .extra-img {
-        width: 30px; 
-    }
-
-    .deal-discount-card-1,
-    .deals-discount-card-2 {
-        width: 100%; 
-    }
-
-    .tour-place-button {
-        width: 100%; 
-    }
-
-    .about-section-detail {
-        flex-direction: column; 
-    }
-
-    .hotel-section,
-    .map-section,
-    .guarantee-section {
-        width: 100%; 
-    }
-
-    .bd-hill-section {
-        width: 100vw;
-        margin: 20px 10px; 
-    }
-
-    .hill-section-description h2 {
-        font-size: 30px; 
-    }
-
-    .hill-section-description p {
-        font-size: 14px; 
-    }
-
-    .hill-section-description {
-        font-size: 14px; 
-    }
-
-    .hill-section-description li {
-        margin-top: 10px; 
-    }
-
-    .newsletter-section {
-        width: 100vw;
-        margin: 20px 10px;
-    }
-
-    .news-trip-section,
-    .newsletter-info {
-        width: 100%; 
-    }
-
-    .newsletter-section h3 {
-        font-size: 20px; 
-    }
-
-    .newsletter-para,
-    .text-section,
-    .email-section {
-        width: 100%;
-    }
-
-    .btn-sec {
-        width: 100%; 
-    }
-
-    .small-heading,
-    .offer-section {
-        text-align: center; 
-    }
-
-    .newsletter-img-section {
-        display: none; 
-    }
-}  
-
